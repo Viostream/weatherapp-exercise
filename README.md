@@ -5,6 +5,6 @@ This is a code pairing exercise. This is a c# application that displays weather 
 1. Clone this repository
 2. Create a new branch, use your name as branch name
 3. Open the solution on Visual Studio
-4. Comoplete the application so the location forecast is displaying on the screen
+4. Complete the application so the location forecast is displaying on the screen
 5. Commit your changes
 6. Create a pull request
