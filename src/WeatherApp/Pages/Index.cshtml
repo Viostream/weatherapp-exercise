@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Weather page";
+}
+
+<div class="weather-block position-relative">
+    <div class="row position-absolute justify-content-center text-white w-100 align-items-center align-center" style="bottom:16px">
+        <div class="col-auto">
+            <span class="temp-label fw-bold">
+            @Model.Today?.TemperatureC 
+            </span>
+            <span class="fs-3">
+                c
+            </span>
+        </div>
+        <div class="col-auto fs-2">
+            @Model.Today?.Location           
+        </div>        
+    </div>
+</div>

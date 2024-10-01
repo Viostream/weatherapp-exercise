@@ -1,0 +1,60 @@
+syntax: glob
+.vs
+Packages/
+bin/
+Bin/
+obj/
+Obj/
+node_modules/
+*.suo
+*.user
+NuGet.exe
+*.orig
+**/*.Web/Common.config
+*.serialized
+src\Sites\Viostream.Publish.Web\test.html
+Connections/Media Prima/
+Connections/Singtel MDP/
+Connections/Viocorp/
+_Chutzpah.*
+Screenshots_PublishSeleniumTests/
+Screenshots_ConsoleSeleniumTests/
+*.coverage
+coverage/
+coverage.xml
+.packages/
+src\App\TestResults\Viostream.App.TE.Tests.mdf
+src\App\TestResults\Viostream.App.TE.Tests_log.ldf
+StyleCop.Cache
+Settings.StyleCop
+src/App/TestResults/
+build_local_no_tests.bat
+.axocover/
+scriptoutput/
+# Appsettings files
+src/Admin/Viostream.Admin.Web/appsettings.local.json
+src/Console/Viostream.Console.Web/appsettings.local.json
+src/Services/Caption/Viostream.Caption.Service/appsettings.local.json
+src/Services/Worker/Viostream.Worker.Service/appsettings.local.json
+src/Player/Viostream.Player.Web/appsettings.local.json
+
+appsettings.local.json
+aws-logger-errors.txt
+**/wwwroot/dist/
+**/wwwroot/lib/
+**/libman/
+**/TestResults/
+coverage.json
+
+src/Services/Transcoder/Old/*
+
+.env
+/src/Api/Viostream.Api.Web/appsettings.local.json
+
+cubejs/
+
+viostream-user-details.sh
+
+# Persistent data for the dockerised MSSQL
+.mssql/*
+.aws/credentials
