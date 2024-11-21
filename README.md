@@ -8,3 +8,7 @@ This is a code pairing exercise. This is a c# application that displays weather 
 4. Complete the application so the location forecast is displaying on the screen
 5. Commit your changes
 6. Create a pull request
+
+## Expected reusult:
+The following image is an example of a successful run of the application:
+![Successful execution](./WeatherExample.png)
