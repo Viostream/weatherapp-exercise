@@ -9,6 +9,6 @@ This is a code pairing exercise. This is a c# application that displays weather 
 5. Commit your changes
 6. Create a pull request
 
-## Expected reusult:
+## Expected result:
 The following image is an example of a successful run of the application:
 ![Successful execution](./WeatherExample.png)
